@@ -1,0 +1,11 @@
+header {
+  display: flex;
+  background-color: aquamarine;
+  justify-content: space-between;
+  nav {
+    display: flex;
+    list-style: none;
+    gap: 2 rem;
+    font-size: 1, 5 rem;
+  }
+}
