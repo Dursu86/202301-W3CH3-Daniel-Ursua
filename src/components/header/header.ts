@@ -5,7 +5,7 @@ import { Component } from '../component/component';
 import './header.scss';
 
 export class Header extends Component {
-  constructor(public selector: string, public title: string = 'Learning DOM') {
+  constructor(public selector: string) {
     super();
     this.template = this.createTemplate();
     this.render('afterbegin');
@@ -14,7 +14,8 @@ export class Header extends Component {
   private createTemplate() {
     return `
         <header>
-          <span><img src="" alt=""></span>
+          <span><img src="./src/Assets/alan-king-KZv7w34tluA-unsplash.jpeg" alt="Funny pet" width="150px">
+          <h1>ADOPETS</h1></span>
           <nav>
             <ul>
               <li><a href="#">Inicio</a></li>
